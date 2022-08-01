@@ -106,7 +106,7 @@ later on to update just use git pull
 $git pull
 
 
-$git fetch
+
 
 
 
