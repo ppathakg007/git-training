@@ -4,3 +4,7 @@ this file we will use to verify for file deletion also
 
 
 this is line added to verify file commits
+
+
+
+git fetch and git pull
