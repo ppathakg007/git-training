@@ -2,7 +2,7 @@ This file is created to verify git log and git commit; if file renamed
 
 this file we will use to verify for file deletion also
 
-
+This is line no 5
 this is line added to verify file commits
 
 
