@@ -1,0 +1,132 @@
+GIT:- DVCS
+    - open Source SCM
+    - Developed by Linux community
+    - Decentralized
+    - Most features does not required to be connected
+    - Almost all commands works on local system
+    - Files need to be tracked are stored in dir called as repository.
+
+
+To install Git in Linux
+$sudo apt update
+$ sudo apt install -y git
+
+to uninstall/remove git
+$sudo autoremove git
+
+To verify
+$git --version
+
+To create dir 
+$mkdir myproject
+
+To get inside myproject
+$cd myproject
+
+GIT Stages
+1. Workdir
+2. Stageing Area
+3. commit(Local repo)
+
+
+To lists contents of directory
+$ls
+
+To lists all file/dir 
+$ls -la
+
+To create one file 
+$nano filename.txt
+write something in file
+ctrl+o tosave changes
+enter for filename configrmation
+ctrl+x to exit 
+
+To see file contents 
+$cat filename.txt
+
+
+To check git status
+$git status
+
+To add file into stage area
+$git add filename
+$git status
+
+To remove file from staging area
+$git rm --cached filename.txt
+
+$git add filename
+$git log
+
+To commit 
+$git commit -m "commit message"
+Username password is required
+
+
+$git log 
+
+
+Create github ID
+Create repository
+get url for repository
+
+on Local(linux) system
+configure credentials
+$ git config --global user.name savi2009
+$ git config --global user.email "savita.ak2009@gmail.com"
+$ git config credential.helper=store
+
+To clone remote repository to local system
+$git clone https://github.com/savi2009/myproject1.git
+
+To get inside cloned dir
+$cd myproject1
+$ls
+
+To make changes locally
+Create newfile and stage it and commit
+$nano file3.txt
+this is 3rd file
+ctrl+o to save
+enter to confirm
+ctrl+x to exit
+
+To stage file3.txt
+$git add file3.txt
+$git commit -m "message to commit"
+
+to push it to remote repo
+$git push
+password : paste token and enter
+
+
+** 1st time only need to clone remote repo
+later on to update just use git pull
+$git pull
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
