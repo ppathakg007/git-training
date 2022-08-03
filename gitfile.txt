@@ -4,7 +4,11 @@ this file we will use to verify for file deletion also
 
 This is line no 5
 this is line added to verify file commits
+<<<<<<< HEAD
 
 
 
 git fetch and git pull
+=======
+this is line7
+>>>>>>> 59d8de986fa48d8eab704bbab1d579fa2a201ea3
