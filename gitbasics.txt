@@ -1,0 +1,1 @@
+This file is created to verify git log and git commit; if file renamed
